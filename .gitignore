@@ -1,0 +1,51 @@
+# Node
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Keep example environment files
+!.env.example
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+.nyc_output/
+
+# ZIP / backup files
+*.zip
+
+# Sensitive recovery files
+twilio_2FA_recovery_code.txt
+
+# Local notes containing credentials
+NOTES-BACKEND.txt
+NOTES-FRONTEND.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
